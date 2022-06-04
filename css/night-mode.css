@@ -1,0 +1,58 @@
+/* CSS Demo */
+h1{
+	color: blue;
+}
+h2{
+	color: green;
+}
+/* -------------------- */
+
+/* Estilos del Body en Modo Nocturno */
+
+#boton-nocturno {
+	position: fixed;
+	left: 2vh;
+	bottom: 2vh;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	border: 0px none;
+	cursor: pointer;
+	background: black;
+	color: white;
+	font-weight: 700;
+	box-shadow: 3px 3px 5px #ccc;
+}
+
+#boton-nocturno:hover{
+	background: blue;
+	color: yellow;
+}
+
+/* Utilizando Clase apgado como "padre" */
+
+body.apagado{
+	background: black;
+	color: white;
+}
+
+.apagado #boton-nocturno{
+	background: blue;
+	color: yellow;
+	box-shadow: 3px 3px 5px #eee;
+}
+
+.apagado h1{
+	color: cyan;
+}
+
+.apagado h2{
+	color: red;
+}
+
+.apagado a{
+	color: yellow;
+}
+
+/* -------------------- */
