@@ -7,7 +7,7 @@ h2{
 }
 /* -------------------- */
 
-/* Estilos del Body en Modo Nocturno */
+/* Body Styles for the Night Mode */
 
 #boton-nocturno {
 	position: fixed;
@@ -30,7 +30,7 @@ h2{
 	color: yellow;
 }
 
-/* Utilizando Clase apgado como "padre" */
+/* Using Class apagado as "parent" */
 
 body.apagado{
 	background: black;

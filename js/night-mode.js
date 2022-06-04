@@ -1,4 +1,4 @@
-// Sencillo Modo Nocturno
+// Simple Night Mode
 let btnNocturno = document.getElementById("boton-nocturno");
 
 btnNocturno.onclick = function() {
