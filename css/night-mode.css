@@ -1,4 +1,4 @@
-/* Estilos del Body en Modo Nocturno */
+/* Body Styles in Night Mode */
 
 #boton-nocturno {
 	position: fixed;
@@ -19,4 +19,3 @@
 	background: #00a2cb;
 	color: white;
 }
-
