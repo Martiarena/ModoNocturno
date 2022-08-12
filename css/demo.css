@@ -1,0 +1,29 @@
+/* CSS Demo */
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #334455;
+}
+a {
+	color: #00bad1;
+}
+a:hover {
+	color: #0083a9;
+}
+
+/* CSS Demo with Night Mode */
+
+body.apagado{
+	background: black;
+	color: #ccbbaa;
+}
+.apagado #boton-nocturno{
+	background: white;
+	color: #345;
+	box-shadow: 3px 3px 5px #eee;
+}
+.apagado a{
+	color: #ff452e;
+}
+.apagado a:hover{
+	color: #ff7c56;
+}
